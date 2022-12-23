@@ -1,0 +1,7 @@
+CREATE TABLE favorite_books (id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER);
+
+INSERT INTO favorite_books VALUES (1, "Not a box", 2);
+INSERT INTO favorite_books VALUES (2, "A Tree Grows in Brooklyn", 3);
+INSERT INTO favorite_books VALUES (3, "Educated", 5);
+
+SELECT * FROM favorite_books
